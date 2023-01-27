@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10sp"
+    android:background="@color/back_ground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="CALCULATE YOUR"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        android:layout_marginTop="10sp"
+
+        android:textColor="#3F51B5"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE"
+        android:layout_marginTop="16dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:background="#2196F3"
+        tools:ignore="HardcodedText"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IN MINUTES"
+        android:textSize="27sp"
+        android:layout_marginTop="10sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="15dp"
+        android:text="Select date"
+        android:textColor="@android:color/darker_gray"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10.05.2003"
+        android:id="@+id/date_view"
+        android:layout_marginTop="16sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="8sp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000000000 sec"
+        android:id="@+id/sec"
+        android:layout_marginTop="16sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In second till date"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="8sp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000000 min"
+        android:id="@+id/min_views"
+        android:layout_marginTop="16sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In minutes till date"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="8sp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24 hr"
+        android:id="@+id/hr_views"
+        android:layout_marginTop="16sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In hours till date"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="8sp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 weeks"
+        android:id="@+id/week"
+        android:layout_marginTop="16sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In weeks till date"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="8sp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 month"
+        android:id="@+id/months"
+        android:layout_marginTop="16sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In months till date"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="8sp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12 years"
+        android:id="@+id/age"
+        android:layout_marginTop="16sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In years till date"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="8sp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
